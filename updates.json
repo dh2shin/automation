@@ -1,0 +1,21 @@
+{
+    "coffees": [
+        {
+            "name": "Muhammad Hadi Je-15",
+            "link": "https://store.georgehowellcoffee.com/coffees/muhammad-hadi-je-15.html",
+            "availability": "Brand New Coffee Muhammad Hadi Je-15 out of stock. Check back later!",
+            "price": "N/A",
+            "country": "Yemen",
+            "notes": "Fig, Raisin, Cherry"
+        },
+        {
+            "name": "Karatu Aa Ot18",
+            "link": "https://store.georgehowellcoffee.com/coffees/karatu-ot18-kiambu-kenya.html",
+            "availability": "Now Out of Stock!",
+            "price": "$19.50 --> N/A",
+            "country": "Kenya",
+            "notes": "Plum, Blackberry And Candied Citrus"
+        }
+    ],
+    "time": "10/29/2020 14:21:33"
+}

@@ -1,0 +1,272 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Harry Shin - Automation Project</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="https://dh2shin.github.io/">Harry Shin</a>
+                <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Coffees</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#updates">Updates</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#favorites">Favorites</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5" src="assets/img/coffee-cropped.png" alt="avatar" />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">Coffee Automation Project</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">Tracking my favorite coffees</p>
+            </div>
+        </header>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Coffees</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Section Subheading-->
+                <p class="page-section-subheading text-center text-secondary mx-auto" id="coffees-header"></p>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Country</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">In Stock</th>
+                            <th scope="col">Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody id="coffeeLists">
+                        
+                    </tbody>
+                </table>
+                
+                
+            </div>
+        </section>
+        <!-- About Section-->
+        <section class="page-section bg-primary text-white mb-0" id="updates">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">Updates</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <p class="page-section-subheading text-center text-white mx-auto" id="updates-header"></p>
+                <table class="table text-white">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Country</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Availability</th>
+                            <th scope="col">Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody id="updateLists">
+                        
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <!-- Favorites Section-->
+        <section class="page-section" id="favorites">
+            <div class="container">
+                <!-- Favorites Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Favorites</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <p class="page-section-subheading text-center text-secondary mx-auto" id="favorites-header">A Review of My Favorite Coffees</p>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="card mt-1">
+                            <div class="card-body">
+                                <h5 class="card-title">Daterra</h5>
+                                <p class="card-text">This Brazilian coffee is a natural processed, light roasted gem. One of the earliest coffee beans among George Howell Coffee's selections, Daterra (also the farm's name) is a terrific introduction to specialty coffee if you are a beginner. Its sweetness from natural processing suits those who enjoy coffee with minimal acidity, and I particularly enjoyed its aged quality and note of vanilla. Works with pourover, but there is also a darker roast option for espresso.</p>
+                                <a href="https://store.georgehowellcoffee.com/coffees/daterra.html" class="btn btn-primary">Buy Here</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card mt-1">
+                            <div class="card-body">
+                                <h5 class="card-title">Karatu AA</h5>
+                                <p class="card-text">This Kenyan coffee is my absolute favorite. As a washed, high grown coffee, Karatu AA delivers one of the most accentuated acidities I've ever tried in coffee. This coffee emphasizes both stonefruity acidity and citrusy/orangy sweetness. In addition to these complex notes, I particularly enjoyed its long-lasting mouthfeel and aroma. Works best with a V60 from my experience.</p>
+                                <a href="https://store.georgehowellcoffee.com/coffees/karatu-ot18-kiambu-kenya.html" class="btn btn-primary">Buy Here</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card mt-1">
+                            <div class="card-body">
+                                <h5 class="card-title">Tarrazu</h5>
+                                <p class="card-text">This Costa Rican coffee is a washed variety extremely popular across the world due to its well-bodied texture and smooth chocolaty sweetness. A fun fact about Costa Rica: it's illegal to grow coffee that isn't 100% arabica. Living upto expectations, Tarrazu delivers quality beans that are well grown and harvested. Because of its relatively low acidity and savory sweetness, Tarrazu works well with almost all brewing methods, including pourover, french-press, and espresso.</p>
+                                <a href="https://store.georgehowellcoffee.com/coffees/tarrazu-costa-rica.html" class="btn btn-primary">Buy Here</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card mt-1">
+                            <div class="card-body">
+                                <h5 class="card-title">Gitwe Hill</h5>
+                                <p class="card-text">This is the first coffee from Burundi I've ever had. Burundi is a small country bordering Rwanda, and the farms of Gitwe Hill only harvest cherries from about a few hundred coffee trees. By the way, Gitwe Hill means "Place of Skulls." Yikes! The coffee has intense acidity with light-to-medium body with strong notes of berries. I had a bit of trouble extracting this coffee, as the earthy, muddy notes of berries were often extracted. I also recommend cooling the coffee down a touch more than your regular coffee; it helped with reducing the earthy notes which I don't find particularly appealing. Works best with pourovers, V60 in particular.</p>
+                                <a href="https://store.georgehowellcoffee.com/coffees/gitwe-hill-burundi_temp.html" class="btn btn-primary">Buy Here</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="card mt-1">
+                            <div class="card-body">
+                                <h5 class="card-title">Guduba Medium</h5>
+                                <p class="card-text">This coffee is the medium-roasted version of coffees from Guduba. I find it to be quite an interesting Ethiopian coffee because of its caramely sweetness. I suspect a part of the sweetness is from the extra roasting, but the floral notes are still strong despite how more developed beans tend to have a smokier, roastier quality. Compared to the famed Yirgacheffe, George Howell Coffee's Guduba selection delivers less acidity but more sweetness. Works best with pourovers, Kalita 102 in particular.</p>
+                                <a href="https://store.georgehowellcoffee.com/coffees/guduba-medium.html" class="btn btn-primary">Buy Here</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-12 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/profile.php?id=100006853984622"><i class="fab fa-fw fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/harry__shin/?hl=en"><i class="fab fa-fw fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="mailto:dh2shin2@gmail.com"><i class="fas fa-fw fa-envelope"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.youtube.com/channel/UCAXVh9V7vUttwysEawpAb7Q"><i class="fab fa-fw fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/harry-shin-34743216a"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright © Harry Shin Blog</small></div>
+        </div>
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <div class="scroll-to-top d-lg-none position-fixed">
+            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script>
+        fetch('coffees.json')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                newCoffees(data);
+            })
+            .catch(function (err) {
+                console.log('error: '+err);
+            });
+        fetch('updates.json')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                updates(data);
+            })
+            .catch(function (err) {
+                console.log('error: '+err);
+            });
+        function newCoffees(data) {
+            var timeContainer = document.getElementById("coffees-header");
+            timeContainer.innerHTML = "Last Checked on ".concat(data.time);
+            var mainContainer = document.getElementById("coffeeLists");
+            for (var i = 0; i < data.coffees.length; i++) {
+                var row = mainContainer.insertRow(i);
+                var cell1 = row.insertCell(0);
+                var cell2 = row.insertCell(1);
+                var cell3 = row.insertCell(2);
+                var cell4 = row.insertCell(3);
+                var cell5 = row.insertCell(4);
+                var linked = document.createElement('a');
+                linked.setAttribute('href', data.coffees[i].link);
+                var linkText = document.createTextNode(data.coffees[i].name);
+                linked.appendChild(linkText);
+                cell1.appendChild(linked);
+                cell2.innerHTML = data.coffees[i].country;
+                cell3.innerHTML = data.coffees[i].price;
+                cell4.innerHTML = data.coffees[i].availability;
+                cell5.innerHTML = data.coffees[i].notes;
+            }
+        }
+        function updates(data) {
+            var timeContainer = document.getElementById("updates-header");
+            timeContainer.innerHTML = "Updates as of ".concat(data.time);
+            var mainContainer = document.getElementById("updateLists");
+            for (var i = 0; i < data.coffees.length; i++) {
+                var row = mainContainer.insertRow(i);
+                var cell1 = row.insertCell(0);
+                var cell2 = row.insertCell(1);
+                var cell3 = row.insertCell(2);
+                var cell4 = row.insertCell(3);
+                var cell5 = row.insertCell(4);
+                var linked = document.createElement('a');
+                linked.setAttribute('href', data.coffees[i].link);
+                linked.setAttribute('style', 'color:#ffffff');
+                var linkText = document.createTextNode(data.coffees[i].name);
+                linked.appendChild(linkText);
+                cell1.appendChild(linked);
+                cell2.innerHTML = data.coffees[i].country;
+                cell3.innerHTML = data.coffees[i].price;
+                cell4.innerHTML = data.coffees[i].availability;
+                cell5.innerHTML = data.coffees[i].notes;
+            }
+        }
+    </script>
+    </body>
+</html>

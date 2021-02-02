@@ -1,141 +1,101 @@
 {
     "coffees": [
         {
-            "name": "The Medium Box 2020",
-            "link": "https://store.georgehowellcoffee.com/gifts-logoware/medium-box-2020.html",
-            "availability": "Brand New Coffee The Medium Box 2020 in stock at $54.00!",
-            "price": "$54.00",
-            "country": "Espresso Blend",
-            "notes": ""
-        },
-        {
-            "name": "The Light Box 2020",
-            "link": "https://store.georgehowellcoffee.com/gifts-logoware/light-box-2020.html",
-            "availability": "Brand New Coffee The Light Box 2020 in stock at $54.00!",
-            "price": "$54.00",
-            "country": "Espresso Blend",
-            "notes": ""
-        },
-        {
-            "name": "The Ethiopian Box",
-            "link": "https://store.georgehowellcoffee.com/gifts-logoware/ethiopian-gift-box-2020.html",
-            "availability": "Brand New Coffee The Ethiopian Box in stock at $25.00!",
-            "price": "$25.00",
-            "country": "Espresso Blend",
-            "notes": ""
-        },
-        {
-            "name": "The Classic Box 2020",
-            "link": "https://store.georgehowellcoffee.com/gifts-logoware/classic-box-2020.html",
-            "availability": "Brand New Coffee The Classic Box 2020 in stock at $39.00!",
-            "price": "$39.00",
-            "country": "Espresso Blend",
-            "notes": ""
-        },
-        {
-            "name": "Gesha Village Estate",
-            "link": "https://store.georgehowellcoffee.com/coffees/gesha-village.html",
-            "availability": "Brand New Coffee Gesha Village Estate out of stock. Check back later!",
+            "name": "Yukro Co-Op Medium",
+            "link": "https://store.georgehowellcoffee.com/coffees/yukro-co-op-medium.html",
+            "availability": "Brand New Coffee Yukro Co-Op Medium out of stock. Check back later!",
             "price": "N/A",
             "country": "Ethiopia",
-            "notes": "Jasmine, Tangerine, Pomegranate"
+            "notes": "Lilac, Peach, Dark Caramel"
+        },
+        {
+            "name": "Rumudamo Coe #2",
+            "link": "https://store.georgehowellcoffee.com/coffees/rumudamo-coe-2.html",
+            "availability": "Brand New Coffee Rumudamo Coe #2 out of stock. Check back later!",
+            "price": "N/A",
+            "country": "Ethiopia",
+            "notes": "Lavender, White Peach, Mango"
+        },
+        {
+            "name": "La Esmeralda Mario",
+            "link": "https://store.georgehowellcoffee.com/coffees/la-esmeralda-panama-mario.html",
+            "availability": "Brand New Coffee La Esmeralda Mario out of stock. Check back later!",
+            "price": "N/A",
+            "country": "Panama",
+            "notes": "Jasmine, Pomegranate, Peach"
+        },
+        {
+            "name": "La Esmeralda Gesha Blend",
+            "link": "https://store.georgehowellcoffee.com/coffees/la-esmeralda-blend.html",
+            "availability": "Brand New Coffee La Esmeralda Gesha Blend out of stock. Check back later!",
+            "price": "N/A",
+            "country": "Panama",
+            "notes": "Jasmine, Peach, Green Grape"
+        },
+        {
+            "name": "Finca Deborah Terroir Gesha",
+            "link": "https://store.georgehowellcoffee.com/coffees/finca-deborah-terroir.html",
+            "availability": "Brand New Coffee Finca Deborah Terroir Gesha out of stock. Check back later!",
+            "price": "N/A",
+            "country": "Panama",
+            "notes": "Peach, Apricot, Bergamot"
+        },
+        {
+            "name": "Alto Lagunillas",
+            "link": "https://store.georgehowellcoffee.com/coffees/alto-lagunillas-peru.html",
+            "availability": "Brand New Coffee Alto Lagunillas out of stock. Check back later!",
+            "price": "N/A",
+            "country": "Peru",
+            "notes": "Nectarine, Lemongrass, White Grape"
+        },
+        {
+            "name": "Daterra Calabria",
+            "link": "https://store.georgehowellcoffee.com/coffees/daterra-calabria.html",
+            "availability": "Brand New Coffee Daterra Calabria in stock at $17.50!",
+            "price": "$17.50",
+            "country": "Brazil",
+            "notes": "Bittersweet Chocolate, Walnut, Cherry"
+        },
+        {
+            "name": "La Bendicion El Beso De Las Piedras",
+            "link": "https://store.georgehowellcoffee.com/coffees/la-bendicion-el-beso-la-piedra-guatemala.html",
+            "availability": "Brand New Coffee La Bendicion El Beso De Las Piedras in stock at $19.00!",
+            "price": "$19.00",
+            "country": "Guatemala",
+            "notes": "Papaya, Brown Sugar, Lime"
+        },
+        {
+            "name": "La Bendicion El Beso Medium",
+            "link": "https://store.georgehowellcoffee.com/coffees/la-bendicion-piedras-medium-guatemala.html",
+            "availability": "Brand New Coffee La Bendicion El Beso Medium in stock at $19.00!",
+            "price": "$19.00",
+            "country": "Guatemala",
+            "notes": "Papaya, Brown Sugar, Pecan"
+        },
+        {
+            "name": "Karindundu Aa",
+            "link": "https://store.georgehowellcoffee.com/coffees/karindundu-aa.html",
+            "availability": "Brand New Coffee Karindundu Aa out of stock. Check back later!",
+            "price": "N/A",
+            "country": "Kenya",
+            "notes": "Plum, Orange, Milk Chocolate"
         },
         {
             "name": "Alto Lagunillas Medium",
             "link": "https://store.georgehowellcoffee.com/coffees/alto-lagunillas-medium.html",
-            "availability": "Brand New Coffee Alto Lagunillas Medium in stock at $28.00!",
-            "price": "$28.00",
+            "availability": "Now Out of Stock!",
+            "price": "$28.00 --> N/A",
             "country": "Peru",
             "notes": "Butterscotch, Cranberry, Lemongrass"
         },
         {
-            "name": "Inza Microlot Blend Medium",
-            "link": "https://store.georgehowellcoffee.com/coffees/inza-microlot-blend-medium.html",
-            "availability": "Brand New Coffee Inza Microlot Blend Medium in stock at $19.00!",
-            "price": "$19.00",
-            "country": "Colombia",
-            "notes": "Toffee, Papaya, Walnut"
-        },
-        {
-            "name": "San Jose Group Colombia",
-            "link": "https://store.georgehowellcoffee.com/coffees/san-jose-group.html",
-            "availability": "Brand New Coffee San Jose Group Colombia in stock at $19.00!",
-            "price": "$19.00",
-            "country": "Colombia",
-            "notes": "Pineapple, Raspberry, Passionfruit"
-        },
-        {
-            "name": "Daterra Sundrop",
-            "link": "https://store.georgehowellcoffee.com/coffees/daterra-sundrop.html",
-            "availability": "Brand New Coffee Daterra Sundrop in stock at $17.50!",
-            "price": "$17.50",
-            "country": "Brazil",
-            "notes": "Butterscotch, Blueberry, Clove"
-        },
-        {
-            "name": "La Soledad Light Roast",
-            "link": "https://store.georgehowellcoffee.com/coffees/la-soledad-guatemala.html",
-            "availability": "Brand New Coffee La Soledad Light Roast in stock at $18.50!",
-            "price": "$18.50",
-            "country": "Guatemala",
-            "notes": "Navel Orange, Chocolate, Almond"
-        },
-        {
-            "name": "La Soledad San Jose Medium",
-            "link": "https://store.georgehowellcoffee.com/coffees/la-soledad-medium-acatenango-guatemala.html",
-            "availability": "Brand New Coffee La Soledad San Jose Medium in stock at $18.50!",
-            "price": "$18.50",
-            "country": "Guatemala",
-            "notes": "Navel Orange, Chocolate, Almond"
-        },
-        {
-            "name": "Matalapa Medium",
-            "link": "https://store.georgehowellcoffee.com/coffees/matalapa-medium.html",
-            "availability": "Brand New Coffee Matalapa Medium in stock at $17.50!",
-            "price": "$17.50",
-            "country": "El Salvador",
-            "notes": "Raisin, Honey, Dark Chocolate"
-        },
-        {
-            "name": "Guduba",
-            "link": "https://store.georgehowellcoffee.com/coffees/guduba.html",
-            "availability": "Brand New Coffee Guduba in stock at $19.00!",
-            "price": "$19.00",
-            "country": "Ethiopia",
-            "notes": "Nectarine, Bergamot, Honey"
-        },
-        {
-            "name": "Filters",
-            "link": "https://store.georgehowellcoffee.com/coffees/filters.html",
-            "availability": "Brand New Coffee Filters out of stock. Check back later!",
-            "price": "N/A",
-            "country": "Espresso Blend",
-            "notes": ""
-        },
-        {
-            "name": "Tarrazu",
-            "link": "https://store.georgehowellcoffee.com/coffees/tarrazu-costa-rica.html",
-            "availability": "O",
-            "price": "$14.00",
-            "country": "Costa Rica",
-            "notes": "Milk Chocolate, Almond, Peach"
-        },
-        {
             "name": "Yukro Co-Op",
             "link": "https://store.georgehowellcoffee.com/coffees/yukro-cooperative-ethiopia.html",
-            "availability": "Now In Stock!",
-            "price": "N/A --> $22.00",
+            "availability": "Now Out of Stock!",
+            "price": "$22.00 --> N/A",
             "country": "Ethiopia",
             "notes": "Lilac, Peach, Raw Sugar"
-        },
-        {
-            "name": "Piedras De Afilar Gesha",
-            "link": "https://store.georgehowellcoffee.com/coffees/piedras-de-afilar-gesha.html",
-            "availability": "Now Out of Stock!",
-            "price": "$29.00 --> N/A",
-            "country": "Colombia",
-            "notes": "Nectarine, Lime, Passionfruit"
         }
     ],
-    "time": "12/08/2020 15:09:36"
+    "time": "02/03/2021 02:26:48"
 }
